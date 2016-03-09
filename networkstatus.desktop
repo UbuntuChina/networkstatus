@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=networkstatus
+Exec=qmlscene $@ Main.qml
+Icon=networkstatus.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+

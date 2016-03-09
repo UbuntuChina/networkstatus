@@ -1,0 +1,17 @@
+{
+    "name": "networkstatus.ubuntu",
+    "description": "description of networkstatus",
+    "architecture": "all",
+    "title": "networkstatus",
+    "hooks": {
+        "networkstatus": {
+            "apparmor": "networkstatus.apparmor",
+            "desktop":  "networkstatus.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+
